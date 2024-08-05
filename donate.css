@@ -62,6 +62,10 @@ p {
   word-wrap: break-word;
 }
 
+a {
+  color: white;
+}
+
 a:active {
   color: white;
   background-color: transparent;
