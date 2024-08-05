@@ -1,0 +1,70 @@
+body {
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 0;
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    color: white;
+
+    background-image: url('images/david.jpg');
+    background-size: cover; /* Scale the image to cover the container */
+    background-position: center top; /* Center horizontally and position the image to cut off the top */
+    background-attachment: fixed;
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+
+    overflow-x: hidden;
+}
+
+.content {
+  position: absolute;
+  width: 99%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.year {
+  width: 70%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, .9);
+  margin: auto;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h1 {
+  font-size: 40px;
+  margin: 5px;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 5px;
+  text-align: left;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 5px;
+}
+
+/* Container for the iframe */
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+/* Responsive iframe */
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
