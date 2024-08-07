@@ -68,3 +68,16 @@ h3 {
   width: 100%;
   height: 100%;
 }
+
+button {
+  font-size: 20px;
+  margin: 5px;
+  background-color: black;
+  border-color: white;
+  color: white;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 10px;
+  font-weight: bold;
+  border-width: thin;
+}

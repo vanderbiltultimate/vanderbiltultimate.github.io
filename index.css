@@ -48,7 +48,7 @@ h2 {
     flex-direction: column; 
     text-align: center;
     justify-content: center;
-    width: fit-content;
+    width: 70%;
     margin: auto;
     height: fit-content;
     background-color: rgba(0, 0, 0, 0.9);
