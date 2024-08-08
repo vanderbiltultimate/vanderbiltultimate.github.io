@@ -1,0 +1,24 @@
+.socials {
+    position: fixed;
+    background-color: black;
+    max-height: 50px;
+    border-radius: 50px;
+    right: 0;
+    bottom:0;
+    margin: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  
+  .socials img {
+    max-height: 30px;
+    margin-top: 10px;
+    margin-bottom: 7px;
+    margin-right: 5px;
+    margin-left: 5px;
+    transition: transform 0.3s ease;
+  }
+
+  .socials img:hover {
+    transform: scale(1.1);
+  }

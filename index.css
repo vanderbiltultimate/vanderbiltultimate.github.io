@@ -9,6 +9,7 @@ body {
     background-size: cover; /* Scale the image to cover the container */
     background-position: center bottom; /* Center horizontally and position the image to cut off the top */
     background-repeat: no-repeat; /* Prevent the image from repeating */
+    overflow-x: hidden;
   }
   
 

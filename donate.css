@@ -47,7 +47,7 @@ p {
   margin: 0 auto;
 }
 
-#text-content {
+.text-content {
   display: flex;
   flex-direction: column; 
   text-align: center;
