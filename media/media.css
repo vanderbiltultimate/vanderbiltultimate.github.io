@@ -6,7 +6,7 @@ body {
     width: 100vw; /* Full viewport width */
     color: white;
 
-    background-image: url('images/david.jpg');
+    background-image: url('/images/david.jpg');
     background-size: cover; /* Scale the image to cover the container */
     background-position: center top; /* Center horizontally and position the image to cut off the top */
     background-attachment: fixed;

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Media</title>
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="/nav-bar.css">
+    <link rel="stylesheet" href="/social.css">
+    <link rel="icon" type="image/x-icon" href="/images/ArmadaLogo.jpg">
+    <style>
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <nav>
+            <a href="index.html">
+                <img id="nav-logo" src="/images/ArmadaLogo.jpg">
+            </a>
+            <a class="nav-link" href="/index.html">Home</a>
+            <a class="nav-link" href="/media.html">Media</a>
+            <a class="nav-link" href="/team.html">Team</a>
+            <a class="nav-link" href="/join.html">Join</a>
+            <a class="nav-link" href="/donate.html">Donate</a>
+        </nav>
+        <div class="year">
+            <h1>2021-2022</h1>
+            <h2>Highlights</h2>
+            <div class="video-container">
+                
+            </div>
+            <br>
+            <h2>Callahan</h2>
+            <div class="video-container">
+                
+            </div>
+            <br>
+            <h2>Spring</h2>
+            <div class="event">
+                <button onclick="toggleVisibility(this, 'Regionals')">Show Regionals</button>
+                <div class="event-content hidden">
+                    <div class="video-container">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="event">
+                <button onclick="toggleVisibility(this, 'Sectionals')">Show Sectionals</button>
+                <div class="event-content hidden">
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="event">
+                <button onclick="toggleVisibility(this, 'Huck Finn')">Show Huck Finn</button>
+                <div class="event-content hidden">
+                    
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                </div>
+            </div>
+            <h2>Fall</h2>
+            <div class="event">
+                <button onclick="toggleVisibility(this, 'Cowbell Classic')">Show Cowbell Classic</button>
+                <div class="event-content hidden">
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="event">
+                <button onclick="toggleVisibility(this, 'Gulf Coast Warmup')">Show Gulf Coast Warmup</button>
+                <div class="event-content hidden">
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="event">
+                <button onclick="toggleVisibility(this, 'Dave Baldwin')">Show Dave Baldwin</button>
+                <div class="event-content hidden">
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                    <div class="video-container">
+                        
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br>
+
+        <div class="year">
+            <h1>Other Years</h1>
+            <a href="/media/2023-2024.html"><button>2023-2024</button></a>
+            <a href="/media/2022-2023.html"><button>2022-2023</button></a>
+        </div>
+        <br>
+    </div>
+
+    <div class="socials">
+        <a href="https://www.youtube.com/@vanderbiltultimate4385" target="_blank"><img src="/images/youtubewhite.png" alt="Vanderbilt Ultimate Youtube"></a>
+        <a href="https://www.instagram.com/vuarmada/" target="_blank"><img src="/images/instagramwhite.png" alt="Vanderbilt Ultimate Instagram"></a>
+        <a href="https://x.com/VUArmada" target="_blank"><img src="/images/twitterwhite.png" alt="Vanderbilt Ultimate X"></a>
+        <a href="https://anchorlink.vanderbilt.edu/organization/armadaultimate" target="_blank"><img src="/images/anchorwhite.png" alt="Vanderbilt Ultimate Anchorlink"></a>
+    </div>
+
+    <script>
+        function toggleVisibility(button, text) {
+            const eventContent = button.nextElementSibling;
+            eventContent.classList.toggle('hidden');
+
+            if (button.innerText == "Show " + text) {
+                button.innerText = "Hide " + text;
+            } else {
+                button.innerText = "Show " + text;
+            }
+        }
+    </script>
+</body>
+</html>
